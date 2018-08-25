@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/idEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="@string/text_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/idPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idEmail"
+            android:ems="10"
+            android:hint="@string/txt_pwd"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/idValider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/idPassword"
+            android:layout_below="@id/idPassword"
+            android:text="@string/text_validate" />
+
+        <Button
+            android:id="@+id/idAnnuler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/idValider"
+            android:layout_toLeftOf="@id/idValider"
+            android:text="@string/btn_annuler" />
+        <Button
+            android:id="@+id/idLangue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idValider"
+            android:text="@string/text_language"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

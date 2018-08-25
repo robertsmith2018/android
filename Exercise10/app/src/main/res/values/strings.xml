@@ -1,0 +1,12 @@
+<resources>
+        <string name="app_name">Application - Connection</string>
+        <string name="text_email">Email</string>
+
+
+        <string name="text_validate" >Validate</string>
+        <string name="text_language" >Francais</string>
+        <string name="btn_annuler">Cancel</string>
+        <string name="txt_pwd">Your Password</string>
+        <string name="valider">Valider</string>
+
+</resources>

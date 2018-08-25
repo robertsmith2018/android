@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Welcome</string>
+    <string name="clickMe_Button">Click Me!</string>
+    <string name="hint_text">Please Enter Your Name !</string>
+    <string name="please_enter_your_name">Please Enter Your Name !</string>
+    <string name="testme_button">testMe</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

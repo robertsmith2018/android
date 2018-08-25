@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application - Login</string>
+    <string name="text_email">Addresse Email</string>
+
+
+    <string name="text_validate" >Valider</string>
+    <string name="text_language" >English</string>
+    <string name="btn_annuler">Annuler</string>
+    <string name="txt_pwd">Mot de passe</string>
+
+</resources>
