@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/carsImage"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ferrari"/>
+
+    <TextView
+        android:id="@+id/idmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model:"
+        android:layout_toRightOf="@id/carsImage"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ferrari"
+        android:layout_toRightOf="@id/idmodel"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/idcolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color:"
+        android:layout_toRightOf="@id/carsImage"
+        android:layout_below="@id/idmodel"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/idcolor"
+        android:layout_below="@id/txt_model"
+        android:layout_alignLeft="@+id/txt_model"
+        android:text="Red"
+
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/idprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:layout_toRightOf="@id/carsImage"
+        android:layout_below="@id/idcolor"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="190000"
+        android:layout_toRightOf="@id/idprice"
+        android:layout_below="@id/txt_color"
+        android:layout_alignLeft="@+id/txt_model"
+        android:textSize="20dp"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:layout_toRightOf="@id/txt_price"
+        android:layout_below="@id/txt_color"
+        android:textSize="20dp"/>
+
+
+
+
+</RelativeLayout>

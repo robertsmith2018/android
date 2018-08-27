@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ListeView_Version1</string>
+
+    <string-array name="id_liste_cours">
+        <item>C/C++</item>
+        <item>Java</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JavaScript</item>
+        <item>Visual Basic</item>
+        <item>PHP</item>
+        <item>MySQL</item>
+    </string-array>
+</resources>
