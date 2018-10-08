@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Passage de données entre activités</string>
+    <string name="text_nom">Votre nom</string>
+    <string name="text_prenom">Votre prénom</string>
+    <string name="text_sfficher">Afficher</string>
+    <string name="text_bienvenue">Bienvenue</string>
+
+</resources>

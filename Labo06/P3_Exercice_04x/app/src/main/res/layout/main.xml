@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/idMatricule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Matricule"/>
+        <EditText
+            android:id="@+id/idNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom"/>
+        <EditText
+            android:id="@+id/idPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prénom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Sexe :"/>
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/idSexe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/idSexeHomme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Homme"/>
+            <RadioButton
+                android:id="@+id/idSexeFemme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Femme"/>
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Etat civil :"/>
+        <RadioGroup
+            android:orientation="vertical"
+            android:id="@+id/idEtatCivil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/idMarie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Marié(e)"/>
+            <RadioButton
+                android:id="@+id/idCelibataire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Célebataire"/>
+
+            <RadioButton
+                android:id="@+id/idSepare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Separé(e)"/>
+            <RadioButton
+                android:id="@+id/idVeuf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="veuf(ve)"/>
+            <RadioButton
+                android:id="@+id/idConjoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Conjoint(e) de fait"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="5dp">
+        <CheckBox
+            android:id="@+id/idFrench"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="20dp"
+            android:text="Francais"
+            android:textAlignment="center"/>
+        <CheckBox
+            android:id="@+id/idEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textSize="20dp"
+            android:text="Anglais"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnSpan="2">
+
+            <CheckBox
+                android:id="@+id/idAutres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Autres langues"/>
+            <EditText
+                android:id="@+id/idTextAutres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/idSalaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salaire $"/>
+
+        <Button
+            android:id="@+id/idAfficher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/idSalaire"
+            android:layout_below="@id/idSalaire"
+            android:text="Afficher"
+            android:padding="10dp"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/idemail"
+        android:text="Adresse email"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/idemail"
+        android:layout_marginTop="10dp"
+        android:id="@+id/idpwd"
+        android:text="Mot de passe"
+        />
+
+    <Button
+        android:id="@+id/idValider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/idpwd"
+        android:layout_below="@id/idpwd"
+        android:text="valider"/>
+    <Button
+        android:id="@+id/idAnnuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/idValider"
+        android:layout_toLeftOf="@id/idValider"
+        android:text="annuler"/>
+
+</RelativeLayout>
