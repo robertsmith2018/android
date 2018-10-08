@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gestion des chapitre</string>
+    <string name="app_ajouter">Ajouter un chapitre </string>
+    <string name="app_liste">Liste des chapitre</string>
+    <string name="app_modifier">Modifier un chapitre</string>
+    <string name="app_supprimer">Supprimer un chapitre </string>
+
+    <string name="app_about">Apropos</string>
+    <string name="app_exit">Quitter</string>
+</resources>

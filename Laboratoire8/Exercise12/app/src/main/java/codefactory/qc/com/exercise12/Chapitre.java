@@ -1,0 +1,45 @@
+package codefactory.qc.com.exercise12;
+
+public class Chapitre {
+    private int id;
+    private String name;
+    private String description;
+
+    public Chapitre(){}
+
+    public Chapitre(String name, String description){
+        this.name = name;
+        this.description = description;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Nom du Chapitre = "+name + "\n" + "Description du chapitre =" + description);
+        return sb.toString();
+    }
+}
